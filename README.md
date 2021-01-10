@@ -10,3 +10,5 @@ kubectl patch svc librespeed \
 kubectl patch svc librespeed \
   --patch='{"spec": {"ports": [{"nodePort": 30333, "port": 80}]}}'
 ```
+
+http://k8s.shubhamtatvamasi.com:30333
