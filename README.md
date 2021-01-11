@@ -8,7 +8,7 @@ kubectl expose deployment librespeed --port=80 --name=librespeed
 
 delete deployment and service:
 ```bash
-kubectl delete deploy/librespeed svc/librespeed
+kubectl delete deploy/librespeed svc/librespeed ingress/librespeed
 ```
 
 Deploy on Kubernetes:
