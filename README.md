@@ -6,6 +6,11 @@ kubectl create deployment librespeed --image=linuxserver/librespeed
 kubectl expose deployment librespeed --port=80 --name=librespeed
 ```
 
+delete deployment and service:
+```bash
+kubectl delete deploy/librespeed svc/librespeed
+```
+
 Deploy on Kubernetes:
 ```bash
 kubectl run librespeed --image=linuxserver/librespeed --port=80 --expose
